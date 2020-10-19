@@ -80,10 +80,12 @@ hr {
 }
 
 #blogpostheader{
-	
+}
 
-
-
+.featuredvid iframe{
+    margin: auto;
+    left: 50%;
+}
 
 
 
