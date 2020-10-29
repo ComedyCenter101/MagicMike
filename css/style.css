@@ -87,6 +87,11 @@ hr {
     left: 50%;
 }
 
+
+.fclipweekdiv iframe:hover{
+	box-shadow: 10px 10px 200px 20px black, 5px 5px 100px 5px gold;
+}
+
 .answerbutton{
 	border: none;
 	background-color: darkslategray;
@@ -94,6 +99,7 @@ hr {
 	transition: all 0.5s;
 	border-radius: 4px;
 	color: white;
+	outline: none;
 	width: 150px;
 	font-size: 16px;
 	float: right;
@@ -108,20 +114,14 @@ hr {
 }
 
 
-.answerbutton:after {
-  content: '»';
-  position: absolute;
-  opacity: 0; 
-  right: -20px;
-  transition: 0.5s;
+.answerbutton:hover {
+  background-color: steelblue;
 }
 
-.answerbutton:hover{
-  padding-right: 15px;
-  padding-left:8px;
+.inc:checked ~ label {
+	color: red;
 }
 
-.answerbutton:hover:after {
-  opacity: 1;
-  right: 25px;
+.cor:checked ~ label{
+	color: green;
 }
