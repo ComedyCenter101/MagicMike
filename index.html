@@ -85,16 +85,16 @@
 					<form style="display:inline">			
 						<div class="row">
 							<div class="col-md-6">
-								<input class="wrongans" type="radio" name="trivq1">
-								<label for="trivq1"> Answer 1 </label> <br>
-								<input class="rightans" type="radio" name="trivq1">
-								<label for="trivq1"> Answer 2 </label> <br>						
+								<span><input id="q1" class="inc" value="Incorrect" type="radio" name="trivq">
+								<label for="q1"> Politics as Usual </label> </span><br>
+								<input id="q2" class="cor" value="Correct" type="radio" name="trivq">
+								<label for="q2"> Public Service </label> <br>						
 							</div>
 							<div class="col-md-6">
-								<input class="wrongans" type="radio" name="trivq1">
-								<label for="trivq1"> Answer 3</label> <br>	
-								<input class="wrongans" type="radio" name="trivq1">
-								<label for="trivq1"> Answer 4 </label> <br>	
+								<span><input id="q2" class="inc" value="Incorrect" type="radio" name="trivq">
+								<label for="q3"> Knope Problem</label> </span><br>	
+								<input id="q4" class="inc" value="Incorrect" type="radio" name="trivq">
+								<label for="q4"> Pawnee, Indiana </label> <br>	
 							</div>
 						</div>
 					</form>					
@@ -102,11 +102,11 @@
 				</div>
 				<!row: answer + answer button>
 				<div class="row">
-					<div class="col-md-9">
+					<div class="col-md-9 anstext">
 						idk
 					</div>	
 					<div class="col-md-3">
-						<button class="answerbutton"> <span> Answer </span> </button>
+						<input type="button" id="btn" class="answerbutton" value="Answer!">
 					</div>
 				</div>
 			</div>
@@ -125,7 +125,7 @@
 						</div>
 						<div class="col-md-5">
 							<h3>
-								some creative title here
+								All Around Me are Familar Faces...
 							</h3>
 							<p>
 								We've definitely seen some of these faces before! From Karen Filippelli/Ann Perkins to Dennis Feinstein/Adrian Pimento, here are ### returning actors across Schur's shows!
@@ -156,7 +156,7 @@
 								Unpopular Opinion: Michael Scott is a terrible person
 							</h3>
 							<p>
-								oof gonna get soooooo much hate for this one. why do all of these blog posts look like buzzfeed clickbait titles jakbkjbaj this aint good my reading level has been reduced to that of a first grader mentally i am a dog digging a hole on the beach
+								oof gonna get soooooo much hate for this one. why do all of these blog posts look like buzzfeed clickbait titles jakbkjbaj this aint good
 							</p>
 						</div>
 					</div>
@@ -164,15 +164,45 @@
 			</div>
 			<p> &nbsp <br> &nbsp </p> <hr>
 			<! who said it??? row >
-			<div class="row">
-				<div class="col-md-2">
-					<h3>
-						random quote!
-					</h3>
+			<div>
+				<! row: heading>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h2>Who said it?</h2>
+					</div>
 				</div>
-				<div class="col-md-10">
-					“Sometimes when you make an omelet you’ve gotta break a few eggs. What’s the alternative? No omelets at all? Who wants to live in that kind of world? Maybe birds. Then all their babies would live.”
-					<br> <span align="right"> -Leslie Knope </span>
+				<! row: Q&A>
+				<div class="row">
+					<div class="col-md-8">
+						<h4> “A few years ago, my family was on a safari in Africa and my cousin, Mufasa, was um, he was trampled to death by a pack of wildebeests and um, we all took it really hard.” </h4>
+					</div>
+					<div class="col-md-4 quizanswers">
+					<form style="display:inline">			
+						<div class="row">
+							<div class="col-md-6">
+								<span><input id="q1" class="inc" value="Incorrect" type="radio" name="trivq">
+								<label for="q1"> Pam Beesley </label> </span><br>
+								<input id="q2" class="inc" value="Incorrect" type="radio" name="trivq">
+								<label for="q2"> Jake Peralta </label> <br>						
+							</div>
+							<div class="col-md-6">
+								<span><input id="q2" class="inc" value="Incorrect" type="radio" name="trivq">
+								<label for="q3"> April Ludgate</label> </span><br>	
+								<input id="q4" class="cor" value="Correct" type="radio" name="trivq">
+								<label for="q4"> Ryan Howard </label> <br>	
+							</div>
+						</div>
+					</form>					
+					</div>
+				</div>
+				<!row: answer + answer button>
+				<div class="row">
+					<div class="col-md-9 anstext">
+						idk
+					</div>	
+					<div class="col-md-3">
+						<input type="button" id="btn" class="answerbutton" value="Answer!">
+					</div>
 				</div>
 			</div>
 			<hr>
@@ -341,6 +371,8 @@
 					</tr>					
 				</tbody>
 			</table>
+			<p> &nbsp </p> <hr>
+			twitter?????????????????? idk add something
 		</div>
 	</div>
 </div>
