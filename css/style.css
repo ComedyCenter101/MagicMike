@@ -1,6 +1,9 @@
 body{
 	background-color: #001827;
 	color: white;
+	height: 100%;
+	margin: 0;
+	width: 100%;
 }
 
 .image-banner-container {
@@ -46,7 +49,7 @@ body{
 	padding: 5px;
 	color: white;
 	text-decoration: none;
-	font-size: 1vw;
+	font-size: 14px;
 	text-align: center; /* If you want the text to be centered */
 	width: auto;
 	display: table-cell;
@@ -76,7 +79,7 @@ hr {
 
 
 .blogpost img{
-	width:100%
+	width:100%;
 }
 
 #blogpostheader{
@@ -125,3 +128,167 @@ hr {
 .cor:checked ~ label{
 	color: green;
 }
+
+
+
+
+#tabbar{
+	z-index: 1;
+	overflow: hidden;
+	position: sticky;
+	top: 30px;
+	background-color: #001827;
+}
+
+.tabbuttonrow {
+	width: 100%;
+	margin: auto;
+	height: 35 px;
+	border-bottom: 1.5px solid black;
+}
+
+/* Style tab links */
+.tablink {
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+  height: 25px;
+  bottom: 0;
+  margin-bottom: 1px;
+  margin-top: 10px;
+  margin-right: 3px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 20px 20px;
+  height: 100%;
+}
+
+.tabcontent h2{
+	font-size: 3vw;
+	text-align: center;
+	padding: 10px;
+}
+
+.OfficeButtonTab{
+	background-color: steelblue;
+}
+
+.ParksButtonTab{
+	background-color: #7B9E70;
+}
+
+.B99ButtonTab{
+	background-color: #C9BF89;
+}
+
+.defaultopen{
+	visibility: visible;
+}
+
+
+#OfficeTab {background-color: rgba(38, 195, 242, 0.4);}
+	#OfficeTab h2 {
+		font-family: monospace;
+	}
+#ParksTab {background-color: rgba(89, 179, 62, 0.8);}
+#B99Tab {background-color: rgba(254, 223, 73, 0.8);}
+
+
+.bioimages {
+	width: 75%;
+	display: block;
+	margin-right: auto;
+	padding: 5px;
+	padding-bottom: 15px;
+	float: none;
+	margin-bottom: 0;
+	
+}
+
+.bioimagesdiv{
+	width: 40%;
+	margin-left: auto;
+	float: right;
+	margin-bottom: auto;
+	margin-top: auto;
+	top: 50%;
+	bottom: 50%;
+}
+
+.synpodiv{
+	width: 55%;
+	float: left;
+}
+
+.watchiton{
+	border: 1px solid black;
+	border-left: none;
+	padding: 10px;
+	width: 48%;
+	float: left;
+	margin-bottom: 15px;
+	box-shadow: 7px 7px 30px black;
+}
+
+.watchiton:hover{
+	box-shadow: 10px 10px 35px black;
+}
+
+.wordsyn{
+	font-size: 1.75rem;
+}
+
+.programdes{
+	font-size: 75%;
+}
+
+.blockrow{
+	width: 100%;
+}
+
+.infotablediv{
+	float: right;
+	width: 50%;
+}
+	
+table, tr{
+  border: 1px solid black;
+}
+
+table{
+	width: 100%;
+}
+
+td{
+	padding: 3px;
+}
+
+th {
+	width: 25%;
+	padding: 3px;
+	padding-left: 10px;
+}
+
+.synsource{
+	font-size:0.75rem;
+	float: right;
+	padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .bioimagesdiv, .infotablediv, .synpodiv, .watchiton {
+    width: 100%;
+  }
