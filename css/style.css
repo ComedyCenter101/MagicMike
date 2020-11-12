@@ -207,6 +207,9 @@ hr {
 		font-family: impact;
 	}
 #B99Tab {background-color: rgba(254, 223, 73, 0.5);}
+	#B99Tab h2{
+		font-family: verdana;
+	}
 
 
 .bioimages {
@@ -278,14 +281,22 @@ table{
 	width: 100%;
 }
 
-td{
-	padding: 3px;
+th{
+	padding-left: 10px;
+}
+.tworow td, th{
+	width: 25%;
+	border-left: 1px solid black;
 }
 
-th {
+.longrow td{
+	padding: 3px;
+	width: 100%;
+}
+
+.longrow th {
 	width: 25%;
 	padding: 3px;
-	padding-left: 10px;
 }
 
 .synsource{
@@ -370,10 +381,33 @@ th {
 	margin-right: auto;
 }
 
-.w2wimg{	
-	width: 100%;
+#b99badge{
+	width: 50%;
 	margin-left: auto;
-	margin-right: auto;	
+	margin-right: auto;
 }
 
+.w2wimg{	
+	width: 50px;
+	width: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	top: 50%;
+}
 
+.pastcont iframe{
+	padding: 10px;
+	width: 95%;
+}
+
+.pastcont h2, h3, h4{
+	padding: 10px;
+}
+
+.pastcontquiz{
+	margin: 10px;
+	padding: 10px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
