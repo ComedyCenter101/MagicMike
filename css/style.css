@@ -2,8 +2,7 @@ body{
 	background-color: #001827;
 	color: white;
 	height: 100%;
-	margin: 0;
-	width: 100%;
+	width: 100%
 }
 
 .image-banner-container {
@@ -203,8 +202,11 @@ hr {
 	#OfficeTab h2 {
 		font-family: monospace;
 	}
-#ParksTab {background-color: rgba(89, 179, 62, 0.8);}
-#B99Tab {background-color: rgba(254, 223, 73, 0.8);}
+#ParksTab {background-color: rgba(89, 179, 62, 0.5);}
+	#ParksTab h2{
+		font-family: impact;
+	}
+#B99Tab {background-color: rgba(254, 223, 73, 0.5);}
 
 
 .bioimages {
@@ -243,6 +245,10 @@ hr {
 	box-shadow: 7px 7px 30px black;
 }
 
+.watchiton a{
+	color: white;
+}
+
 .watchiton:hover{
 	box-shadow: 10px 10px 35px black;
 }
@@ -251,8 +257,8 @@ hr {
 	font-size: 1.75rem;
 }
 
-.programdes{
-	font-size: 75%;
+.programname{
+	font-size: 125%
 }
 
 .blockrow{
@@ -288,7 +294,86 @@ th {
 	padding: 5px;
 }
 
+.synsource a {
+	color: lightblue;
+}
+
 @media screen and (max-width: 600px) {
   .bioimagesdiv, .infotablediv, .synpodiv, .watchiton {
     width: 100%;
   }
+}
+  
+.chacard {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 5px 10px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.chacard:hover {
+  box-shadow: 5px 15px 16px 0 rgba(0,0,0,0.7);
+}
+
+/* Add some padding inside the card container */
+.chacontainer {
+  padding: 2px 16px;
+  text-align: center;
+}
+
+.charnameheader{
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+	
+.charheader{
+	text-align: center;
+	padding: 10px;
+}
+	
+.sinfocartext{
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	margin-left: 0;
+	margin-right: auto;
+	left: 0;
+	padding: 1%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.carousel-caption{
+	width: 100%;
+	margin-left: 0;
+	margin-right: auto;
+	left: 0;
+}	
+
+.carousel{
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+@media screen and (max-width: 700px) {
+  .carousel{
+	width: 100%;
+  }
+}
+
+#parkseal{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.w2wimg{	
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+
