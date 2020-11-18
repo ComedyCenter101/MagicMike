@@ -421,10 +421,10 @@ th{
 }
 
 .mediaarray{
-	border: 1px solid white;
 	padding: 10px;
 	margin: 10px;
 	width: 560px;
+	box-shadow: 5px 15px 16px 0 rgba(0,0,0,0.7);
 }
 
 
@@ -448,7 +448,10 @@ th{
 }
 
 .instadiv{ 
-
+	margin-top: auto;
+	margin-bottom: auto;
+	display: block;
+	top: 50%;
 }
 
 .twitterdiv{
@@ -459,13 +462,6 @@ th{
 	
 }
 
-.facebookdiv{	
-	
-}	
-
-.facebookdiv div{	
-	width: 100%;
-}
 	
 .youtubediv{
 	
