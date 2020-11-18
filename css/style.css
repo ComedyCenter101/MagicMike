@@ -173,6 +173,7 @@ hr {
   display: none;
   padding: 20px 20px;
   height: 100%;
+  width: 100%;
 }
 
 .tabcontent h2{
@@ -193,6 +194,10 @@ hr {
 	background-color: #C9BF89;
 }
 
+.OtherButtonTab{
+	background-color: indianred;
+}
+
 .defaultopen{
 	visibility: visible;
 }
@@ -210,7 +215,10 @@ hr {
 	#B99Tab h2{
 		font-family: verdana;
 	}
-
+#OtherTab {background-color: rgba(204, 0, 76, 0.5);}
+	#OtherTab h2{
+		font-family: verdana;
+	}
 
 .bioimages {
 	width: 75%;
@@ -411,3 +419,112 @@ th{
 	border-top: 1px solid white;
 	border-bottom: 1px solid white;
 }
+
+.mediaarray{
+	border: 1px solid white;
+	padding: 10px;
+	margin: 10px;
+	width: 560px;
+}
+
+
+.twitterdiv, .youtubediv{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.instadiv, .facebookdiv{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.twitterdiv, .instadiv {
+	
+}
+
+.youtubediv, .facebookdiv{
+
+}
+
+.instadiv{ 
+
+}
+
+.twitterdiv{
+	height: 350px;
+}
+
+.twitterdiv a{
+	
+}
+
+.facebookdiv{	
+	
+}	
+
+.facebookdiv div{	
+	width: 100%;
+}
+	
+.youtubediv{
+	
+}	
+
+.youtubediv h3{
+	text-align: center;
+	padding-bottom: 2px;
+}	
+
+.youtubediv iframe{
+	width: 100%;
+	height: 315px;
+}
+	
+	
+	
+@media screen and (max-width: 1200px) and (min-width: 1020px) {
+  .mediaarray {
+    width: 476px;
+  }
+  .youtubediv iframe{
+	height: 268px
+  }
+}
+
+@media screen and (max-width: 1020px) and (min-width: 900px){
+  .mediaarray {
+    width: 420px;
+  }
+  .youtubediv iframe{
+	height: 236px;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 768px){
+  .mediaarray {
+    width: 336px;
+  }
+  .youtubediv iframe{
+	height: 189px
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .mediaarray {
+    width: 476px;
+  }
+  .youtubediv iframe{
+	height: 268px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .mediaarray {
+    width: 90%;
+	margin: 5%;
+  }
+}
+	
+	
+	
