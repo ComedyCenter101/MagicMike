@@ -15,8 +15,22 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
-	
-		
+			
+var coll = document.getElementsByClassName("collapsible");
+var z;
+
+for (z = 0; z < coll.length; z++) {
+  coll[z].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
 function openPage(pageName, elmnt, color) {
   // Hide all elements with class="tabcontent" by default */
   var i, tabcontent, tablinks;
