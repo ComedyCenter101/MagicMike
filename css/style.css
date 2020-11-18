@@ -129,6 +129,7 @@ hr {
 }
 
 
+	
 
 
 #tabbar{
@@ -404,13 +405,22 @@ th{
 	top: 50%;
 }
 
+
+
+
+.pastcont{
+	margin: 1%;
+	margin-bottom: 50px;
+}
+
 .pastcont iframe{
-	padding: 10px;
+	padding: 25px;
 	width: 95%;
 }
 
-.pastcont h2, h3, h4{
-	padding: 10px;
+.pastcont h2, h3, h4, h5{
+	margin: 0;
+	text-align: center;
 }
 
 .pastcontquiz{
@@ -420,11 +430,67 @@ th{
 	border-bottom: 1px solid white;
 }
 
+.pastclips{
+	padding-bottom: 10px;
+	
+}
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  background-color: #6460aa;
+  box-shadow: 0 8px 9px 1px #1F1C35;
+  color: white;
+  border: 1px solid black;
+}
+
+.hiddencontent .content{
+  display: none;
+}
+
+.hiddencontent button{
+  background-color: #434068;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 20px 18px;
+  overflow: hidden;
+  width: 98%;
+  left: 50%;
+  right: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #003252;
+}	
+
+.content p{
+	padding: 10px;
+	font-size: 1.15rem;
+}
+
+.quoteorg{
+	font-size: 0.95rem;
+	text-align: right;
+	float: right;
+}
+
 .mediaarray{
 	padding: 10px;
 	margin: 10px;
 	width: 560px;
-	box-shadow: 5px 15px 16px 0 rgba(0,0,0,0.7);
+	box-shadow: 5px 10px 8px 0 rgba(0,0,0,0.5);
+}
+
+.mediaarray:hover{	
+	box-shadow: 5px 12px 12px 0 rgba(0,0,0,0.6);
 }
 
 
@@ -455,7 +521,7 @@ th{
 }
 
 .twitterdiv{
-	height: 350px;
+	height: 375px;
 }
 
 .twitterdiv a{
@@ -467,7 +533,7 @@ th{
 	
 }	
 
-.youtubediv h3{
+.mediaarray h3{
 	text-align: center;
 	padding-bottom: 2px;
 }	
@@ -522,5 +588,11 @@ th{
   }
 }
 	
-	
+
+
+
+
+
+
+
 	
