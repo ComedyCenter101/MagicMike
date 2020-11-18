@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-	  <!-- Global site tag (gtag.js) - Google Analytics -->
+ 	<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-E0NMTE1RBX"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
@@ -23,6 +23,10 @@
 
 </head>
 <body>
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="CHi8sfpZ"></script>
+
 <div class="container-fluid">
 	<! things at the top /// banner stuff >
 	<div class="row topstuff">
@@ -37,13 +41,66 @@
 				<a href="blog_posts/bps.html">Blog Posts</a>
 				<a href="showinfo.html">Show Info</a>
 				<a href="pastcont.html">Past Content</a>
-				<a href="media.html">Media</a>
+				<a href="media.html">Social Media</a>
 			</div>
 		</div>
 	</div>
-	<!enter shit here>
-	
+	<!everything below the top stuff>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="row tabbuttonrow" id="tabbar">
+				<button class="tablink OfficeButtonTab" onclick="openPage('OfficeTab', this, 'rgba(38, 195, 242, 0.8)')" id="defaultOpen">The Office</button>
+				<button class="tablink ParksButtonTab" onclick="openPage('ParksTab', this, 'rgba(89, 179, 62, 0.8)')" >Parks and Rec</button>
+				<button class="tablink B99ButtonTab" onclick="openPage('B99Tab', this, 'rgba(254, 223, 73, 0.8)')">Brooklyn 99</button>
+				<button class="tablink OtherButtonTab" onclick="openPage('OtherTab', this, 'rgba(204, 0, 76, 0.8)')">Other</button
+			</div>
+			<! THE OFFICE CONTENT>
+			<div id="OfficeTab" class="tabcontent">
+				<h2>the office</h2>
+				<div class="row">
+					<!left>
+					<div class="col-md-6">
+						<!Insta>
+						<div class="instadiv mediaarray">
+							<br> guhb <br> guhb <br> guhb <br> guhb <br> guhb <br> guhb  
+						</div>
+						
+						<!facebook>
+						<div class="facebookdiv mediaarray">
+							<div class="fb-page" data-href="https://www.facebook.com/TheOfficeTV/" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/TheOfficeTV/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/TheOfficeTV/">The Office</a></blockquote></div>
+						</div>
+					</div>
+					<!right>
+					<div class="col-md-6">
+						<!Twitter>
+						<div class="twitterdiv mediaarray">
+							<a class="twitter-timeline" data-lang="en" data-width="100%" data-height="100%" data-theme="dark" href="https://twitter.com/theofficetv?ref_src=twsrc%5Etfw">Tweets by theofficetv</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						</div>
+						
+						<!youtube>
+						<div class="youtubediv mediaarray">
+							<h3> Newest Youtube Clips! </h3>
+							<iframe src="https://www.youtube.com/embed/videoseries?list=UUa90xqK2odw1KV5wHU9WRhg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</div>							
+					</div>
+				</div>
+			</div>			
+			<! PARKS AND REC CONTENT>
+			<div id="ParksTab" class="tabcontent">
+				<h2>Parks and Recreation</h2>					
+			</div>			
+			<! BROOKLYN 99 CONTENT>
+			<div id="B99Tab" class="tabcontent">
+				<h2> BROOKLYN NINE-NINE </h2>					
+			</div>
+			<! OTHER CONTENT>
+			<div id="OtherTab" class="tabcontent">
+				<h2> Other </h2>					
+			</div>			
+		</div>
+	</div>
 </div>
+
   
 	<script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
