@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- 	<!-- Global site tag (gtag.js) - Google Analytics -->
+ 	<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-E0NMTE1RBX"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
@@ -37,113 +37,81 @@
 				<a href="blog_posts/bps.html">Blog Posts</a>
 				<a href="showinfo.html">Show Info</a>
 				<a href="pastcont.html">Past Content</a>
-				<a href="media.html">Media</a>
+				<a href="media.html">Social Media</a>
 			</div>
 		</div>
 	</div>
-	<div class="row  pastcont">
+	<div class="row pastcont">
 		<div class="col-md-12">
-			<h2> Week of 11/11/11 </h2>
-			<!featured clips>
+			<! week of>
 			<div>
-				<h3> featured clips </h3>
-				<div class="row">
-					<div class="col-md-4">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/DDgnb9iAWtY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-					<div class="col-md-4">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/Xnk4seEHmgw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-					<div class="col-md-4">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/RG7w5TIfZmk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-				</div>
-			</div>
-			<div class="pastcontquiz">
-				<! row: heading>
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<h2>trivia!</h2>
-					</div>
-				</div>
-				<! row: Q&A>
-				<div class="row">
-					<div class="col-md-5">
-						<h4> What was Parks and Rec's original name? </h4>
-					</div>
-					<div class="col-md-7 quizanswers">
-					<form style="display:inline">			
-						<div class="row">
-							<div class="col-md-6">
-								<span><input id="q1" class="inc" value="Incorrect" type="radio" name="trivq">
-								<label for="q1"> Politics as Usual </label> </span><br>
-								<input id="q2" class="cor" value="Correct" type="radio" name="trivq">
-								<label for="q2"> Public Service </label> <br>						
+				<button type="button" class="collapsible"> <h4> Week of 11/11/11 </h> </button>
+				<div class="content">
+					<!featured clips>
+					<div>
+						<h3> featured clips </h3>
+						<div class="row pastclips">
+							<div class="col-md-4">
+								<iframe src="https://www.youtube.com/embed/DDgnb9iAWtY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
-							<div class="col-md-6">
-								<span><input id="q2" class="inc" value="Incorrect" type="radio" name="trivq">
-								<label for="q3"> Knope Problem</label> </span><br>	
-								<input id="q4" class="inc" value="Incorrect" type="radio" name="trivq">
-								<label for="q4"> Pawnee, Indiana </label> <br>	
+							<div class="col-md-4">
+								<iframe src="https://www.youtube.com/embed/Xnk4seEHmgw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="col-md-4">
+								<iframe src="https://www.youtube.com/embed/RG7w5TIfZmk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
 						</div>
-					</form>					
 					</div>
+					<!trivia + quote>
+					<div class="row">
+						<div class="col-md-6">
+							<h3> trivia! </h3>
+							<p> The original name for <i>Parks and Recreation</i> was <i>Public Service</i>! The name was ultimately changed because the producers didn't want to mock, well, public service. </p>
+						</div>
+						
+						<div class="col-md-6">
+							<h3> quote! </h3>
+							<p> “A few years ago, my family was on a safari in Africa and my cousin, Mufasa, was um, he was trampled to death by a pack of wildebeests and um, we all took it really hard.”
+							<span class="quoteorg"> Ryan Howard || The Office || S3E4</span> </p>
+						</div>
+					</div>			
 				</div>
-				<!-- <!row: answer + answer button>
-				 <div class="row">
-					<div class="col-md-9" id="anstext">
-						idk
-					</div>	
-					<div class="col-md-3">
-						<input type="button" id="btn" onclick="showText()" class="answerbutton" value="Answer!">
-					</div>
-				</div> -->
-			</div>
-			<br>
-			<! who said it??? row >
-			<div class="pastcontquiz">
-				<! row: heading>
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<h2>Who said it?</h2>
-					</div>
-				</div>
-				<! row: Q&A>
-				<div class="row">
-					<div class="col-md-8">
-						<h4> “A few years ago, my family was on a safari in Africa and my cousin, Mufasa, was um, he was trampled to death by a pack of wildebeests and um, we all took it really hard.” </h4>
-					</div>
-					<div class="col-md-4 quizanswers">
-					<form style="display:inline">			
-						<div class="row">
-							<div class="col-md-6">
-								<span><input id="q1" class="inc" value="Incorrect" type="radio" name="trivq">
-								<label for="q1"> Pam Beesley </label> </span><br>
-								<input id="q2" class="inc" value="Incorrect" type="radio" name="trivq">
-								<label for="q2"> Jake Peralta </label> <br>						
+			</div>		
+			<!week of >
+			<div class="hiddencontent">
+				<button type="button" class="hiddencontent collapsible"> <h4> Week of 11/11/11 </h> </button>
+				<div class="content ">
+					<!featured clips>
+					<div>
+						<h3> featured clips </h3>
+						<div class="row pastclips">
+							<div class="col-md-4">
+								<iframe src="https://www.youtube.com/embed/DDgnb9iAWtY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
-							<div class="col-md-6">
-								<span><input id="q2" class="inc" value="Incorrect" type="radio" name="trivq">
-								<label for="q3"> April Ludgate</label> </span><br>	
-								<input id="q4" class="cor" value="Correct" type="radio" name="trivq">
-								<label for="q4"> Ryan Howard </label> <br>	
+							<div class="col-md-4">
+								<iframe src="https://www.youtube.com/embed/Xnk4seEHmgw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="col-md-4">
+								<iframe src="https://www.youtube.com/embed/RG7w5TIfZmk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
 						</div>
-					</form>					
 					</div>
+					<!trivia + quote>
+					<div class="row">
+						<div class="col-md-6">
+							<h3> trivia! </h3>
+							<p> The original name for <i>Parks and Recreation</i> was <i>Public Service</i>! The name was ultimately changed because the producers didn't want to mock, well, public service. </p>
+						</div>
+						
+						<div class="col-md-6">
+							<h3> quote! </h3>
+							<p> “A few years ago, my family was on a safari in Africa and my cousin, Mufasa, was um, he was trampled to death by a pack of wildebeests and um, we all took it really hard.”
+							<span class="quoteorg"> Ryan Howard || The Office || S3E4</span>
+						</div>
+					</div>			
 				</div>
-				<!row: answer + answer button>
-				<!--<div class="row">
-					<div class="col-md-9 anstext">
-						idk
-					</div>	
-					<div class="col-md-3">
-						<input type="button" id="btn" class="answerbutton" value="Answer!">
-					</div>
-				</div>-->
-			</div>			
-		</div>
+			</div>
+		</div>		
 	</div>
 </div>
   
