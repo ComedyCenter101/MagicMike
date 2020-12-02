@@ -42,6 +42,7 @@ body{
 	z-index: 1;
 	left: 0;
 	margin: 0;
+	margin-bottom: 10px;
 }
 
 #navbar a{
@@ -67,8 +68,10 @@ body{
 	text-orientation: sideways-right;
 }
 
-.maincontentstuff{
+.maincont{
 	z-index: 2;
+	margin: 10px;
+
 }
 
 hr {
@@ -145,6 +148,7 @@ hr {
 	margin: auto;
 	height: 35 px;
 	border-bottom: 1.5px solid black;
+	z-index: 2;
 }
 
 /* Style tab links */
@@ -175,6 +179,7 @@ hr {
   padding: 20px 20px;
   height: 100%;
   width: 100%;
+  z-index: 3;
 }
 
 .tabcontent h2{
@@ -418,7 +423,7 @@ th{
 	width: 95%;
 }
 
-.pastcont h2, h3, h4, h5{
+.pastcont h2, .pastcont h3,.pastcont h4, .pastconth5{
 	margin: 0;
 	text-align: center;
 }
@@ -522,7 +527,6 @@ th{
 
 .twitterdiv{
 	height: 375px;
-	padding: 10px
 }
 
 .twitterdiv a{
@@ -588,12 +592,3 @@ th{
 	margin: 5%;
   }
 }
-	
-
-
-
-
-
-
-
-	
