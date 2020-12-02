@@ -1,0 +1,99 @@
+.bps h2{
+	text-align: center;
+}
+
+.bpssidediv{
+	width: 25%;
+	float: right;
+}
+
+.bpsmaindiv{
+	width: 73%;
+	float: left;
+}
+
+.bpsmaindiv, .bpssidediv{ 
+	margin-left: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+	top: 50%;
+	bottom: 50%;
+	padding: 8px;
+}
+
+.bpscontainer {
+  overflow: hidden;
+}
+
+.bpsfilterDiv {
+  display: none; /* Hidden by default */
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.bpsshow {
+  display: block;
+}
+
+/* Style the buttons */
+.bpsbtn {
+  border: 1px solid black;
+  outline: none;
+  padding: 8px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+/* Add a light grey background on mouse-over */
+.bpsbtn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.bpsbtn.active {
+  background-color: gray;
+  color: white;
+}
+
+
+#goupBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: blue; /* Set a background color */
+  color: white; /* Text color */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#goupBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.bp{ 
+	padding: 5px 25px;
+}
+
+.bpcontent{
+	padding: 50px 0;
+}
+
+.bpcontent img{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 10px;
+}
+
+
+
