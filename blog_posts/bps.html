@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-	 <!-- Global site tag (gtag.js) - Google Analytics -->
+	<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-E0NMTE1RBX"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
@@ -20,6 +20,8 @@
 
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
+	<link href="../css/stylebp.css" rel="stylesheet">
+
 
 </head>
 <body>
@@ -37,16 +39,35 @@
 				<a href="bps.html">Blog Posts</a>
 				<a href="../showinfo.html">Show Info</a>
 				<a href="../pastcont.html">Past Content</a>
-				<a href="../media.html">Media</a>
+				<a href="../media.html">Social Media</a>
 			</div>
 		</div>
 	</div>
-	<div class="row">
+	<! Main cont>
+	<div class="row maincont bps">
 		<div class="col-md-12">
-			<h3> blog posts </h3>
-			<div class="row">
-				<div class="col-md-9">
-					<p> &nbsp </p>
+			<h2> blog posts </h2>
+			<! filtering div>
+			<div class="bpssidediv">
+				<!-- Control buttons -->
+				<div id="bpsmyBtnContainer">
+				  <button class="bpsbtn active" onclick="filterSelection('all')"> Show all</button>
+				  <button class="bpsbtn" onclick="filterSelection('Mix')"> Mixture</button>
+				  <button class="bpsbtn" onclick="filterSelection('B99')"> Brookyln Nine-Nine</button>
+				  <button class="bpsbtn" onclick="filterSelection('Office')"> The Office</button>
+				  <button class="bpsbtn" onclick="filterSelection('Parks')"> Parks and Recreation</button>
+				  <hr>
+				  <button class="bpsbtn active" onclick="filterSelection('all')"> Show all</button>
+				  <button class="bpsbtn" onclick="filterSelection('list')"> Lists</button>
+				  <button class="bpsbtn" onclick="filterSelection('reviews')"> Reviews</button>
+				  <button class="bpsbtn" onclick="filterSelection('hottakes')"> Hot Takes</button>
+				  <button class="bpsbtn" onclick="filterSelection('all')"> Cursed Content</button>				  
+				</div>			
+			</div>
+			<! main div>
+			<div class="bpsmaindiv"> 
+				<! all around me are....>
+				<div class="bpsfilterDiv Mix list">				
 					<div class="row blogpost">
 						<div class="col-md-7">
 							<img alt="Parks and Rec" src="https://pyxis.nymag.com/v1/imgs/905/e03/e8d0afe46db88b42431cdb8c93092d3a1f-09-mike-shur-lede-new.2x.rhorizontal.w700.jpg">
@@ -57,10 +78,12 @@
 							</h3>
 							<p>
 								We've definitely seen some of these faces before! From Karen Filippelli/Ann Perkins to Dennis Feinstein/Adrian Pimento, here are ### returning actors across Schur's shows!
-							</p>
-							<p> <a href="bp.html"> Read More! </a> </p>
+							<br> <a href="bp.html"> Read More! </a> </p>
 						</div>
-					</div> <p> &nbsp </p>
+					</div>
+				</div>
+				<! b99 stan>
+				<div class="bpsfilterDiv B99 reviews hottakes">					
 					<div class="row blogpost">
 						<div class="col-md-7">
 							<img alt="Parks and Rec" src="https://commonslibrary.org/wp-content/uploads/brooklyn99-s6-lrg.jpg">
@@ -71,10 +94,12 @@
 							</h3>
 							<p>
 								Why Brookyln Nine-Nine is amazing and something other thing that i will figure out later here's a keyboard smash sdcaijbadijvbcaijsbvijdsabviujeb
-							</p>
-							<p> <a href="bp.html"> Read More! </a> </p>
+							<br> <a href="bp.html"> Read More! </a> </p>
 						</div>
-					</div> <p> &nbsp </p>
+					</div>
+				</div>
+				<! boooooo michael scott>
+				<div class="bpsfilterDiv Office hottakes">
 					<div class="row blogpost">
 						<div class="col-md-7">
 							<img alt="Parks and Rec" src="https://img1.looper.com/img/gallery/the-entire-story-of-the-office-finally-explained/intro-1565722485.jpg">
@@ -85,19 +110,39 @@
 							</h3>
 							<p>
 								oof gonna get soooooo much hate for this one. why do all of these blog posts look like buzzfeed clickbait titles jakbkjbaj this aint good
-							</p>
-							<p> <a href="bp.html"> Read More! </a> </p>
+							<br>
+							<a href="bp.html"> Read More! </a> </p>
 						</div>
-					</div>
-				</div>
-				<div class="col-md-3">
-				some stuff maybe a tag filter thing we'll see how that goes
+					</div>	
 				</div>
 			</div>
 		</div>
 	</div>
+	<button onclick="topFunction()" id="goupBtn" title="Go to top">Go to Top</button>
 	<script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/scripts.js"></script>
+	<script> filterSelection("all") </script>
+	<script>
+		//Get the button:
+		mybutton = document.getElementById("goupBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+			mybutton.style.display = "block";
+		  } else {
+			mybutton.style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}			
+	</script>
   </body>
 </html>
