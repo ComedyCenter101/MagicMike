@@ -1,4 +1,4 @@
-.bps h2{
+.bps h1{
 	text-align: center;
 }
 
@@ -105,5 +105,17 @@
 	padding-right: 15px;
 }
 
+.bp2 .listthing{
+	padding: 10px;
+	text-align: center;
+}
 
-
+.bp2 .middlething{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 45%;
+}	
+	
+	
+	
