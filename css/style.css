@@ -351,9 +351,55 @@ th{
   box-shadow: 5px 10px 8px 0 rgba(0,0,0,0.5);
   transition: 0.3s;
   border: 1px solid black;
-  margin: 5px;
+  margin: 15px;
+  width: 20%;
+  display: inline-block;
+  flex: 1;
 }
 
+@media screen and (min-width: 1021px) and (max-width: 1799px) {
+	.b99chacards .chacard{
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 1020px) {
+  .chacard {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .chacard {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .chacard {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .chacard {
+    width: 18%;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .chacard {
+    width: 14%;
+  }
+}
+
+.chacards{
+	margin: auto;
+	display: block;
+	width: 95%;
+	text-align: center;
+	
+}
 /* On mouse-over, add a deeper shadow */
 .chacard:hover {
   box-shadow: 5px 15px 16px 0 rgba(0,0,0,0.7);
@@ -363,6 +409,7 @@ th{
 .chacontainer {
   padding: 2px 16px;
   text-align: center;
+  display: inline-block;
 }
 
 .charnameheader{
