@@ -104,6 +104,9 @@ hr {
 #blogpostheader{
 }
 
+
+/* index stuff */
+
 .fclipweekdiv iframe{
     margin: auto;
     left: 50%;
@@ -112,32 +115,6 @@ hr {
 
 .fclipweekdiv iframe:hover{
 	box-shadow: 10px 10px 200px 20px black, 5px 5px 100px 5px gold;
-}
-
-.answerbutton{
-	border: none;
-	background-color: darkslategray;
-	text-align: center;
-	transition: all 0.5s;
-	border-radius: 4px;
-	color: white;
-	outline: none;
-	width: 150px;
-	font-size: 16px;
-	float: right;
-	display: inline-block;
-	position: relative;
-	font-size: 14px;
-	padding: 4px;
-	margin: 36px;
-	margin-bottom: 0;
-	margin-top: 0;
-	box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
-}
-
-
-.answerbutton:hover {
-  background-color: steelblue;
 }
 
 .inc:checked ~ label {
@@ -149,8 +126,7 @@ hr {
 }
 
 
-	
-
+/* tabs and stuff (for media and showinfo) */	
 
 #tabbar{
 	z-index: 1;
@@ -189,7 +165,7 @@ hr {
   background-color: #777;
 }
 
-/* Style the tab content (and add height:100% for full page content) */
+
 .tabcontent {
   color: white;
   display: none;
@@ -243,10 +219,14 @@ hr {
 		font-family: verdana;
 	}
 
+
+
+/* past content... array content code */
+
 .bioimages {
-	width: 75%;
 	display: block;
 	margin-right: auto;
+	margin-left: auto;
 	padding: 5px;
 	padding-bottom: 15px;
 	float: none;
@@ -255,7 +235,7 @@ hr {
 }
 
 .bioimagesdiv{
-	width: 40%;
+	width: 30%;
 	margin-left: auto;
 	float: right;
 	margin-bottom: auto;
@@ -264,9 +244,44 @@ hr {
 	bottom: 50%;
 }
 
+#OfficeTab .bioimagesdiv{
+	width: 40%;
+}
+
+/* bio images */
+
+#dunmiflogo{
+	width: 400px;
+}
+
+
+#parkseal{
+	width: 250px;
+}
+
+#b99badge{
+	width: 250px;
+}
+
+@media screen and (max-width: 1080px) {
+	#dunmiflogo{
+		width: 350px;
+	}
+}
+
+@media screen and (max-width: 970px) {
+	#dunmiflogo{
+		width: 325px;
+	}
+}	
+
 .synpodiv{
-	width: 55%;
+	width: 65%;
 	float: left;
+}
+
+#OfficeTab .synpodiv{
+	width: 55%;
 }
 
 .watchiton{
@@ -340,12 +355,26 @@ th{
 	color: lightblue;
 }
 
-@media screen and (max-width: 600px) {
-  .bioimagesdiv, .infotablediv, .synpodiv, .watchiton {
+@media screen and (max-width: 900px) {
+  .infotablediv, .synpodiv, .watchiton {
     width: 100%;
+  }
+  .bioimagesdiv{
+	  width: 50%;
+	  float: none;
+	  margin: auto;
+	  display: block;
+  }
+  
+  #dunmiflogo {
+	  width: 90%;
   }
 }
   
+
+ 
+  
+ /* character cards */  
 .chacard {
   /* Add shadows to create the "card" effect */
   box-shadow: 5px 10px 8px 0 rgba(0,0,0,0.5);
@@ -434,6 +463,9 @@ th{
 	margin-bottom: auto;
 }
 
+
+
+/* past content photo carousel */
 .carousel-caption{
 	width: 100%;
 	margin-left: 0;
@@ -453,18 +485,9 @@ th{
   }
 }
 
-#parkseal{
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-}
 
-#b99badge{
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-}
 
+/* where to watch images */
 .w2wimg{	
 	width: 50px;
 	width: 50px;
@@ -474,9 +497,7 @@ th{
 	top: 50%;
 }
 
-
-
-
+/* past content stuff */
 .pastcont{
 	margin: 1%;
 	margin-bottom: 50px;
@@ -504,8 +525,6 @@ th{
 	
 }
 
-
-/* Style the button that is used to open and close the collapsible content */
 .collapsible {
   cursor: pointer;
   padding: 18px;
@@ -528,7 +547,6 @@ th{
   background-color: #434068;
 }
 
-/* Style the collapsible content. Note: hidden by default */
 .content {
   padding: 20px 18px;
   overflow: hidden;
@@ -551,6 +569,10 @@ th{
 	float: right;
 }
 
+
+
+
+/* social media stuff */
 .mediaarray{
 	padding: 10px;
 	margin: 10px;
@@ -656,3 +678,7 @@ th{
 	margin: 5%;
   }
 }
+
+
+
+
