@@ -120,8 +120,30 @@
 	
 .bp3 img{
 	width: 55%;
-		margin-left: auto;
+	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	padding: 25px;
+}
+
+.bp4 p {
+	padding: 10px;
+}
+
+
+.bp5 .bpcontent img{
+	width: 100%;
+	paddding: 10px;
+}
+
+.bp5 .middlething{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 65%;
+}	
+
+
+.bp6 iframe{
+	padding: 15px;
 }
