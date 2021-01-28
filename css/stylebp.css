@@ -12,6 +12,11 @@
 	float: left;
 }
 
+#bpsmyBtnContainer{
+	padding: 10px;
+}
+		
+
 .bpsmaindiv, .bpssidediv{ 
 	margin-left: auto;
 	margin-bottom: auto;
@@ -58,6 +63,34 @@
   background-color: gray;
   color: white;
 }
+
+
+@media screen and (max-width: 1000px) {
+	.bpsmaindiv, .bpssidediv{
+		width: 95%;
+	}
+	.bpsbtn{
+		margin: 0;
+		left: 50%;
+		right: 50%;
+		padding: 5px;
+		width: auto;
+		text-align: center;
+		float: none;
+	}
+	#bpsmyBtnContainer{
+		padding: 5px;
+		display: inline-flex;
+		margin: auto;
+	}
+	#bpsmyBtnContainer:after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+}
+		
+
 
 
 #goupBtn {
@@ -146,4 +179,38 @@
 
 .bp6 iframe, .bp7 iframe{
 	padding: 15px;
+}
+
+.bp8 .embed-responsive{
+	width: 60%;
+	padding: 10px;
+	margin: auto;
+}
+
+.bp8 .description{
+	padding: 10px;
+	display: block;
+	float: left;
+	width: 45%;
+}
+
+.bp8 .sidething{
+	padding: 10px;
+	display: block;
+	float: right;
+	width: 45%;
+}
+
+.bp8 .song{
+	padding: 15px;
+	display: inline-block;
+}
+
+.bp8 .song h3{
+	text-align: center;
+}
+
+.bp8 .songvideo{
+	background-color: #08202e;
+	padding: 10px;
 }
