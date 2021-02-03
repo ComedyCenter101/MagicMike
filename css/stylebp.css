@@ -215,3 +215,12 @@
 	padding: 10px;
 }
 
+.bp9 iframe{
+	margin: auto;
+	padding: 10px;
+	display: block;
+}
+
+.bp9 h3{
+	text-align: center;
+}
