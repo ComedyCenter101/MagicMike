@@ -227,3 +227,15 @@
 
 
 
+.bp11 iframe{
+	float: right;
+	padding: 15px;
+	display: block;
+}
+
+.bp11 figure{
+	display: block;
+	margin: auto;
+	font-size: 14px;
+	text-align: center;
+}
