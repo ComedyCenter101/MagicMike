@@ -1,5 +1,5 @@
  /* character cards */  
-.chacard {
+.chacard{
   /* Add shadows to create the "card" effect */
   box-shadow: 5px 10px 8px 0 rgba(0,0,0,0.5);
   transition: 0.3s;
@@ -7,7 +7,6 @@
   margin: 15px;
   display: inline-grid;
   flex: 1;
-  width: px;
 }
 
 /********
@@ -70,30 +69,218 @@
 **/
 
 
+@media screen and (min-width: 1440px){
+	.b99chacards .chacard{
+		font-size: 1.2rem
+	}
+	.b99chacards .chacard h4{
+		font-size: 1.75rem;
+		padding-top: 5px;
+	}
+}
+
+
+	  
+@media screen and (min-width: 1024px) and (max-width: 1059px) {
+	.b99chacards .chacard{
+		width: 268px;
+		height: 466px
+	}
+}
+
+
+@media screen and (min-width: 1060px) and (max-width: 1127px){
+	.b99chacards .chacard{
+		width: 280px;
+		height: 478px
+	}
+}
+
+
+@media screen and (min-width: 1128px) and (max-width: 1199px){
+	.b99chacards .chacard{
+		width: 303px;
+		height: 501px
+	}
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1250px){
+	.b99chacards .chacard{
+		width: 327px;
+		height: 500.22px
+	}
+}
+
+
+@media screen and (min-width: 1251px) and (max-width: 1300px){
+	.b99chacards .chacard{
+		width: 344px;
+		height: 518px;
+	}
+}
+
+
+
+@media screen and (min-width: 1301px) and (max-width: 1353px){
+	.b99chacards .chacard{
+		width: 360px;
+		height: 534px;
+	}
+}
+
+
+
+@media screen and (min-width: 1354px) and (max-width: 1400px){
+	.b99chacards .chacard{
+		width: 275px;
+		height: 473px;
+	}
+}
+
+
+
+@media screen and (min-width: 1401px) and (max-width: 1439px){
+	.b99chacards .chacard{
+		width: 286px;
+		height: 484px;
+	}
+}
+
+
+
+
+@media screen and (min-width: 1440px) and (max-width: 1524px){
+	.b99chacards .chacard{
+		width: 407px;
+		height: 613px;
+	}
+}
+
+
+
+
+@media screen and (min-width: 1525px) and (max-width: 1639px){
+	.b99chacards .chacard{
+		width: 435px;
+		height: 641px;
+	}
+}
+
+
+@media screen and (min-width: 1640px) and (max-width: 1774px){
+	.b99chacards .chacard{
+		width: 473px;
+	}
+}
+
+
+@media screen and (min-width: 1775px) and (max-width: 1904px){
+	.b99chacards .chacard{
+		width: 380px;
+	}
+}
+
+
+
+@media screen and (min-width: 1905px) and (max-width: 2029px){
+	.b99chacards .chacard{
+		width: 412px;
+		height: 618px;
+	}
+}
+
+
+
+@media screen and (min-width: 2030px) and (max-width: 2159px){
+	.b99chacards .chacard{
+		width: 444px;
+		height: 650px;
+	}
+}
+
+
+
+@media screen and (min-width: 2160px) and (max-width: 2299px){
+	.b99chacards .chacard{
+		width: 476px;
+	}
+}
+
+
+
+@media screen and (min-width: 2300px) and (max-width: 2414px){
+	.b99chacards .chacard{
+		width: 402px;
+		height: 608px;
+	}
+}
+
+
+
+@media screen and (min-width: 2415px) and (max-width: 2479px){
+	.b99chacards .chacard{
+		width: 425px;
+		height: 631px;
+	}
+}
+
+
+
+@media screen and (min-width: 2480px) and (max-width: 2559px){
+	.b99chacards .chacard{
+		width: 438px;
+		height: 644px;
+	}
+}
+
+
+
+@media screen and (min-width: 2560px) and (max-width: 2684px){
+	.b99chacards .chacard{
+		width: 454px;
+		height: 660px;
+	}
+}
+
+
+
+@media screen and (min-width: 2685px){
+	.b99chacards .chacard{
+		width: 479px;
+	}
+}
+
+
+
+
 
 
 
 @media screen and (max-width: 764px) {
-	.chacard {
+	.chacard{
 		width: 80%;
 	}
 }
 
 @media screen and (min-width: 765px) and (max-width: 800px) {
-	.chacard {
+	.chacard{
 		width: 290px;
 	}
 }
 
 @media screen and (min-width: 801px) and (max-width: 839px) {
-	.chacard {
+	.chacard{
 		width: 308px;
 	}
 }
 
 
 @media screen and (min-width: 840px) and (max-width: 880px) {
-	.chacard {
+	.b99chacards .chacard{
+		height: 498.22px;
+	}
+	.chacard{
 		width: 327px;
 		height: 477px;
 	}
@@ -101,7 +288,10 @@
 
 
 @media screen and (min-width: 881px) and (max-width: 939px) {
-	.chacard {
+	.b99chacards .chacard{
+		height: 521.13px;
+	}
+	.chacard{
 		width: 348px;
 		height: 498px;
 	}
@@ -109,14 +299,20 @@
 
 
 @media screen and (min-width: 940px) and (max-width: 974px) {
-	.chacard {
+	.b99chacards .chacard{
+		height: 477.4px;
+	}
+	.chacard{
 		width: 240px;
 		height: ;
 	}
 }
 
 @media screen and (min-width: 975px) and (max-width: 1023px) {
-	.chacard {
+	.b99chacards .chacard{
+		height: 472px;
+	}
+	.chacard{
 		width: 252px;
 		height: 424px;
 	}
@@ -124,56 +320,56 @@
 
 
 @media screen and (min-width: 1024px) and (max-width: 1079px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 268px;
 		height: 442px;
 	}
 }
 
 @media screen and (min-width: 1080px) and (max-width: 1088px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 280px;
 		height: 453.64px;
 	}
 }
 
 @media screen and (min-width: 1089px) and (max-width: 1118px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 290px;
 		
 	}
 }
 
 @media screen and (min-width: 1119px) and (max-width: 1163px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 300px;
 		
 	}
 }
 
 @media screen and (min-width: 1164px) and (max-width: 1206px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 315px;
 		
 	}
 }
 
 @media screen and (min-width: 1207px) and (max-width: 1250px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 329px;
 		height: 479px;
 	}
 }
 
 @media screen and (min-width: 1251px) and (max-width: 1299px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 344px;
 		height: 494px;
 	}
 }
 
 @media screen and (min-width: 1300px) and (max-width: 1350px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 261px;
 		height: 434.34px;
 		
@@ -181,7 +377,7 @@
 }
 
 @media screen and (min-width: 1351px) and (max-width: 1413px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 274px;
 		height: 447.65px;
 		
@@ -189,34 +385,34 @@
 }
 
 @media screen and (min-width: 1414px) and (max-width: 1475px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 290px;
 		
 	}
 }
 
 @media screen and (min-width: 1476px) and (max-width: 1520px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 305px;
 		
 	}
 }
 
 @media screen and (min-width: 1521px) and (max-width: 1570px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 316px;
 		
 	}
 }
 
 @media screen and (min-width: 1571px) and (max-width: 1630px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 329px;
 	}
 }
 
 @media screen and (min-width: 1631px) and (max-width: 1700px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 344px;
 		height: 494px;
 		
@@ -224,77 +420,77 @@
 }
 
 @media screen and (min-width: 1701px) and (max-width: 1738px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 361px;
 		height: 511px;
 	}
 }
 
 @media screen and (min-width: 1738px) and (max-width: 1780px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 290px;
 		
 	}
 }
 
 @media screen and (min-width: 1781px) and (max-width: 1850px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 298px;
 		
 	}
 }
 
 @media screen and (min-width: 1851px) and (max-width: 1925px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 312px;
 		
 	}
 }
 
 @media screen and (min-width: 1926px) and (max-width: 2000px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 327px;
 		height: 476.63px;
 	}
 }
 
 @media screen and (min-width: 2001px) and (max-width: 2067px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 342px;
 		height: 492px;
 	}
 }
 
 @media screen and (min-width: 2068px) and (max-width: 2124px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 290px;
 		
 	}
 }
 
 @media screen and (min-width: 2125px) and (max-width: 2232px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 300px;
 		
 	}
 }
 
 @media screen and (min-width: 2233px) and (max-width: 2300px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 318px;
 		
 	}
 }
 
 @media screen and (min-width: 2301px) and (max-width: 2365px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 329px;
 		height: 479px;
 	}
 }
 
 @media screen and (min-width: 2366px) and (max-width: 2386px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 340px;
 		height: 490px;
 		
@@ -302,39 +498,51 @@
 }
 
 @media screen and (min-width: 2387px) and (max-width: 2440px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 290px;
 		
 	}
 }
 
 @media screen and (min-width: 2441px) and (max-width: 2500px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 297px;
 		
 	}
 }
 
 @media screen and (min-width: 2501px) and (max-width: 2560px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 306px;
 		
 	}
 }
 
 @media screen and (min-width: 2561px) and (max-width: 2712px) {
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 314px;
 		
 	}
 }
 
 @media screen and (min-width: 2713px){
-	.chacard {
+	#OfficeTab .chacard, #ParksTab .chacard{
 		width: 290px;
 		
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .chacards{
@@ -367,3 +575,5 @@
 	text-align: center;
 	padding: 10px;
 }
+
+
