@@ -239,3 +239,14 @@
 	font-size: 14px;
 	text-align: center;
 }
+
+.bp12 .bpcontent img{
+	display: block;
+	margin: auto;
+	width: 55%;
+	padding: 10px;
+}
+
+.bp12 .bpcontent h2{
+	text-align: center;
+}
