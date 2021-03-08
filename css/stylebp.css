@@ -250,3 +250,14 @@
 .bp12 .bpcontent h2{
 	text-align: center;
 }
+
+.bp14 .book{
+	width: 45%;
+	display: block;
+	padding: 15px;
+}
+
+.bp14 .bookdiv{
+	display: inline-block;
+	padding: 10px;
+}
