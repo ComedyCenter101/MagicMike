@@ -241,7 +241,7 @@ $('#submit-btn').click(function () {
 	} else {
 		document.getElementById('results').innerHTML = "<h3>You are neither!</h3><br>\
 		<h5>\"This is the smallest amount of power I’ve ever seen go to someone’s head.\"</h5> \
-		Congrats! You are neither. Michael and Dwight are certainly two extremities on different sides of the personality spectrums, and while they are both <i>very</i> entertaining to watch on the screen, being worked to interact with them in real life would be... exhausting, to say the least. So yup, relish in your normalcy and the fact that you, unfortunately, are not a TV show character (or at the very least, aren't these two).\
+		Congrats! You are neither. Michael and Dwight are certainly two extremities on different sides of the personality spectrums, and while they are both <i>very</i> entertaining to watch on the screen, being forced to interact with them in real life would be... exhausting, to say the least. So yup, relish in your normalcy and the fact that you, unfortunately, are not a TV show character (or at the very least, aren't these two).\
 		"
 	}
 
