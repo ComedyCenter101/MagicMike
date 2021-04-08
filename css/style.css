@@ -133,25 +133,28 @@ body{
 	padding-left: 1%;
 }
 
-.triviadiv .questiondiv{
-	width: 57%;
-}
 
-.triviadiv .quizanswers{
-	width: 40%;
-}
+@media screen and (min-width: 901px) {
+	.triviadiv .questiondiv{
+		width: 57%;
+	}
 
-.whosaiditdiv .questiondiv{
-	width: 67%;
-}
+	.triviadiv .quizanswers{
+		width: 40%;
+	}
 
-.whosaiditdiv .quizanswers{
-	width: 30%;
-}
+	.whosaiditdiv .questiondiv{
+		width: 67%;
+	}
+
+	.whosaiditdiv .quizanswers{
+		width: 30%;
+	}
 
 
-.quizq{
-	width: 99%;
+	.quizq{
+		width: 99%;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -244,6 +247,16 @@ hr {
 	padding: 1%;
 	margin-top: auto;
 	margin-bottom: auto;
+}
+
+@media screen and (max-width: 767px){
+	.abouttext{
+		padding: 1%;
+		border-left: none;
+	}
+	.abouttitle{
+		text-align:center;
+	}
 }
 
 
