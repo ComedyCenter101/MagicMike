@@ -136,11 +136,11 @@ body{
 
 @media screen and (min-width: 901px) {
 	.triviadiv .questiondiv{
-		width: 57%;
+		width: 40%;
 	}
 
 	.triviadiv .quizanswers{
-		width: 40%;
+		width: 58%;
 	}
 
 	.whosaiditdiv .questiondiv{
@@ -733,7 +733,5 @@ th{
 	margin: 5%;
   }
 }
-
-
 
 
