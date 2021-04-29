@@ -300,3 +300,27 @@
 
 .bp19 .caststats{
 	padding-bottom: 15px;
+}
+
+.bp20 .embed-responsive{
+	width: 60%;
+	padding: 10px;
+	margin: auto;
+}
+
+.bp20 .castmemberdiv{
+	padding: 25px;
+	display: inline-block;
+}
+
+.bp20 h2{
+	text-align: center;
+}
+
+.bp20 .videoclip{
+	margin-bottom: 15px;
+}
+
+.bp20 .caststats{
+	padding-bottom: 15px;
+}
