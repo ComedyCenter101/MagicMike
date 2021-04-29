@@ -136,6 +136,9 @@ a{
 	padding-left: 1%;
 }
 
+.questiondiv h2{
+	font-size: 1.5rem;
+}
 
 @media screen and (min-width: 901px) {
 	.triviadiv .questiondiv{
@@ -181,6 +184,7 @@ a{
 		width: 99%
 	}
 }
+
 
 @media screen and (max-width: 900px) and (min-width: 601px){
 	.questiondiv{
