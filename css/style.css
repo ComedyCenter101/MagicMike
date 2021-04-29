@@ -312,7 +312,7 @@ hr {
   z-index: 3;
 }
 
-.tabcontent h2{
+.tabcontent h1{
 	font-size: 3vw;
 	text-align: center;
 	padding: 10px;
@@ -340,19 +340,19 @@ hr {
 
 
 #OfficeTab {background-color: rgba(38, 195, 242, 0.4);}
-	#OfficeTab h2 {
+	#OfficeTab h1 {
 		font-family: monospace;
 	}
 #ParksTab {background-color: rgba(89, 179, 62, 0.5);}
-	#ParksTab h2{
+	#ParksTab h1{
 		font-family: impact;
 	}
 #B99Tab {background-color: rgba(254, 223, 73, 0.5);}
-	#B99Tab h2{
+	#B99Tab h1{
 		font-family: verdana;
 	}
 #OtherTab {background-color: rgba(204, 0, 76, 0.5);}
-	#OtherTab h2{
+	#OtherTab h1{
 		font-family: verdana;
 	}
 
