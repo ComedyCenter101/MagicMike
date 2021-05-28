@@ -5,7 +5,6 @@ body{
 	width: 100%
 }
 
-
 .hero-image {
   background-image: url("wordart.png");
 
@@ -435,9 +434,6 @@ hr {
 	box-shadow: 7px 7px 30px black;
 }
 
-.watchiton a{
-	color: white;
-}
 
 .watchiton:hover{
 	box-shadow: 10px 10px 35px black;
@@ -569,6 +565,11 @@ th{
 	text-align: center;
 }
 
+.pastcont h1{
+	text-align: center;
+	padding-bottom: 15px;
+	text-shadow: 1px 1px 2px black, 0 0 25px lightblue, 0 0 10px blue;
+}
 
 .pastcontquiz{
 	margin: 10px;
