@@ -141,19 +141,19 @@ a{
 
 @media screen and (min-width: 901px) {
 	.triviadiv .questiondiv{
-		width: 67%;
+		width: 55%;
 	}
 
 	.triviadiv .quizanswers{
-		width: 30%;
+		width: 40%;
 	}
 
 	.whosaiditdiv .questiondiv{
-		width: 67%;
+		width: 60%;
 	}
 
 	.whosaiditdiv .quizanswers{
-		width: 30%;
+		width: 35%;
 	}
 
 
