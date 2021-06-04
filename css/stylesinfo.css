@@ -542,7 +542,12 @@
 
 
 
-
+.sinfocartext p{
+	font-size: 1.5rem;
+	font-weight: 500;
+	line-height: 1.1;
+	margin-bottom: .5rem;
+}
 
 
 .chacards{
@@ -566,7 +571,6 @@
 }
 
 .charnameheader{
-	color: white;
 	font-weight: bold;
 	text-align: center;
 }
