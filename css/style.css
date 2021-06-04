@@ -687,9 +687,10 @@ th{
 	
 }	
 
-.mediaarray h3{
+.mediaarray h2{
 	text-align: center;
 	padding-bottom: 2px;
+	font-size: 1.75rem
 }	
 
 .youtubediv iframe{
