@@ -1,450 +1,752 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-E0NMTE1RBX"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+body{
+	background-color: #001827;
+	color: white;
+	height: 100%;
+	width: 100%
+}
 
-	  gtag('config', 'G-E0NMTE1RBX');
-	</script> 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+.hero-image {
+  background-image: url("wordart.png");
 
-    <title>Magic Mike(-ael Schur)</title>
 
-    <meta name="description" content="Source code generated using layoutit.com">
-    <meta name="author" content="LayoutIt!">
+  height: 150px;
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
 
-  </head>
-  <body>
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
-<div class="container-fluid">
-	<! things at the top /// banner stuff >
-	<header class="row topstuff" style="padding: 0">
-		<div class="col-md-12" style="padding: 0">
-			<!banner>
-				<div class="hero-image" role="banner">
-				  <div id="name-text">
-					MAGIC MIKE <span id="smallmm">(-AEL SCHUR)</span>
-				  </div>
-				</div>
-			<!nav bar>
-			<nav id="navbar">
-				<a class="active" href="index.html">Home</a>
-				<a href="blog_posts/bps.html">Blog Posts</a>
-				<a href="showinfo.html">Show Info</a>
-				<a href="pastcont.html">Past Content</a>
-				<a href="media.html">Social Media</a>
-			</nav>
-		</div>
-	</header>
-	<br>
-	<! everything below the banner and stuff >
-	<main>
-	<! featured clips of the week >
-	<div class="row featuredclipsdiv">
-		<div class="col-md-12 text-center">
-			<h1> FEATURED CLIPS OF THE WEEK </h1>
-			<div id="demo" class="carousel" data-ride="carousel">			
-				<ul class="carousel-indicators">
-					<li data-target="#demo" data-slide-to="0" class="active"></li>
-					<li data-target="#demo" data-slide-to="1"></li>
-					<li data-target="#demo" data-slide-to="2"></li>
-				</ul>
-				
-				<!-- 5/31/21>
-				<div class="carousel-inner">
-					<div class="carousel-item active featclipscar">
-						<div class="embed-responsive embed-responsive-16by9"> 					 
-							<iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 					 
-						</div>
-					</div>
-					<div class="carousel-item featclipscar">
-						<div class="embed-responsive embed-responsive-16by9"> 					 
-							<iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 			
-						</div>
-					</div>
-					<div class="carousel-item featclipscar">
-						<div class="embed-responsive embed-responsive-16by9"> 					 
-							<iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 			
-						</div>
-					</div>
-				</div> -->
-				
-				<!-- 6/14/21>
-				<div class="carousel-inner">
-					<div class="carousel-item active featclipscar">
-						<div class="embed-responsive embed-responsive-16by9"> 					 
-							<iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/gW2LtX1217s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 					 
-						</div>
-					</div>
-					<div class="carousel-item featclipscar">
-						<div class="embed-responsive embed-responsive-16by9"> 					 
-							<iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/8R5tWHUEn7Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 			
-						</div>
-					</div>
-					<div class="carousel-item featclipscar">
-						<div class="embed-responsive embed-responsive-16by9"> 					 
-							<iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/3nhX7csr_uo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 			
-						</div>
-					</div>
-				</div> -->
-				
-				<!-- 6/07/21>
-				<div class="carousel-inner">
-					<div class="carousel-item active featclipscar">
-						<div class="embed-responsive embed-responsive-16by9"> 					 
-							<iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/VtItscbcvS0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 					 
-						</div>
-					</div>
-					<div class="carousel-item featclipscar">
-						<div class="embed-responsive embed-responsive-16by9"> 					 
-							<iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/0w1-ByJ1ee0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 			
-						</div>
-					</div>
-					<div class="carousel-item featclipscar">
-						<div class="embed-responsive embed-responsive-16by9"> 					 
-							<iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/eyfRxIDO5p4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 			
-						</div>
-					</div>
-				</div> -->
-				
-				<!5/31/21>
-				<div class="carousel-inner">
-					<div class="carousel-item active featclipscar">
-						<div class="embed-responsive embed-responsive-16by9"> 					 
-							<iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/On-FtkzYVKU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 					 
-						</div>
-					</div>
-					<div class="carousel-item featclipscar">
-						<div class="embed-responsive embed-responsive-16by9"> 					 
-							<iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/dFm7pzMvcLs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 			
-						</div>
-					</div>
-					<div class="carousel-item featclipscar">
-						<div class="embed-responsive embed-responsive-16by9"> 					 
-							<iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/M9k-c6WohHw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 			
-						</div>
-					</div>
-				</div>
-				
-				<a class="carousel-control-prev" href="#demo" data-slide="prev">
-					<span class="carousel-control-prev-icon"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="carousel-control-next" href="#demo" data-slide="next">
-					<span class="carousel-control-next-icon"></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
-		</div>
-	</div>
-	
-	<hr>
-	
-	<! trivia>
-	<div class="row triviadiv">
-		
-		<!--- week of 5/31/21>
-		<div class="col-md-12">
-			<h1 style="padding: 5px; text-align: center; font-size: 2rem">trivia!</h1>
-			<! question>
-			<div class="questiondiv">
-				<h2>  </h2>
-			</div>
-			<! answer>
-			<div class="quizanswers">
-				<form style="display:inline">			
-					<div class="answercol answercol1">
-						<div class="quizq"> <span class="leftq"><input id="q1" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q1">  </label> </span> </div>
-						<div class="quizq"> <input id="q2" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q2">  </label> </div>						
-					</div>
-					<div class="answercol answercol2">
-						<div class="quizq"> <span class="leftq"><input id="q3" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q3">  </label> </span> </div> 
-						<div class="quizq"> <input id="q4" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q4">  </label> </div>	
-					</div>
-				</form>					
-			</div>
-		</div>-->
-		
-		<!--- week of 6/14/21>
-		<div class="col-md-12">
-			<h1 style="padding: 5px; text-align: center; font-size: 2rem">trivia!</h1>
-			<! question>
-			<div class="questiondiv">
-				<h2> Who was the first person to be cast on <i>The Office</i>? </h2>
-			</div>
-			<! answer>
-			<div class="quizanswers">
-				<form style="display:inline">			
-					<div class="answercol answercol1">
-						<div class="quizq"> <span class="leftq"><input id="q1" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q1"> Rainn Wilson </label> </span> </div>
-						<div class="quizq"> <input id="q2" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q2"> John Krasinski </label> </div>						
-					</div>
-					<div class="answercol answercol2">
-						<div class="quizq"> <span class="leftq"><input id="q3" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q3"> Jenna Fischer </label> </span> </div> 
-						<div class="quizq"> <input id="q4" class="cor" value="Correct" type="radio" name="trivq">
-						<label for="q4"> B.J Novak </label> </div>	
-					</div>
-				</form>					
-			</div>
-		</div>-->
-		
-		<!--- week of 6/07/21>
-		<div class="col-md-12">
-			<h1 style="padding: 5px; text-align: center; font-size: 2rem">trivia!</h1>
-			<! question>
-			<div class="questiondiv">
-				<h2> Ben Wyatt's <i>The Cones of Dunshire</i> is an actual professional-looking board game. Which company created this game that was so complex that it has only ever been played once?</h2>
-			</div>
-			<! answer>
-			<div class="quizanswers">
-				<form style="display:inline">			
-					<div class="answercol answercol1">
-						<div class="quizq"> <span class="leftq"><input id="q1" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q1"> Fantasy Flight Games</label> </span> </div>
-						<div class="quizq"> <input id="q2" class="cor" value="Correct" type="radio" name="trivq">
-						<label for="q2"> Mayfair Games </label> </div>						
-					</div>
-					<div class="answercol answercol2">
-						<div class="quizq"> <span class="leftq"><input id="q3" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q3"> Ravensburger </label> </span> </div> 
-						<div class="quizq"> <input id="q4" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q4"> Hasbro </label> </div>	
-					</div>
-				</form>					
-			</div>
-		</div>-->
-		
-		<! week of 5/31/21>
-		<div class="col-md-12">
-			<h1 style="padding: 5px; text-align: center; font-size: 2rem">trivia!</h1>
-			<! question>
-			<div class="questiondiv">
-				<h2> Jenna Fischer's husband made a cameo in an episode of <i>The Office</i>. Who did he play? </h2>
-			</div>
-			<! answer>
-			<div class="quizanswers">
-				<form style="display:inline">			
-					<div class="answercol answercol1">
-						<div class="quizq"> <span class="leftq"><input id="q1" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q1"> A High School Teacher </label> </span> </div>
-						<div class="quizq"> <input id="q2" class="cor" value="Correct" type="radio" name="trivq">
-						<label for="q2"> A Lactation Specialist </label> </div>						
-					</div>
-					<div class="answercol answercol2">
-						<div class="quizq"> <span class="leftq"><input id="q3" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q3"> A Staples Employee </label> </span> </div> 
-						<div class="quizq"> <input id="q4" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q4"> A Bike Courier </label> </div>	
-					</div>
-				</form>					
-			</div>
-		</div>
-	</div>
 
-	<hr>
-	
-	<! recent blog posts>
-	<div class="row recentblogpostsdiv">
-		<div class="row">
-			<div class="col-md-12">
-				<h1 id="blogpostheader"> blog posts </h1>
-				
-				<!--
-				<div class="row blogpost">
-					<div class="col-md-7">
-						<img alt="" src="blog_posts/images/bp.png">
-					</div>
-					<div class="col-md-5">
-						<h2> <a href="blog_posts/bp.html">    </a> </h2>
-						<p>
-						</p>
-					</div>
-				</div>	-->
-				
-				<!>
-				<div class="row blogpost">
-					<div class="col-md-7">
-						<img alt="Creed Bratton with his black hair" src="blog_posts/images/bp22.jpg">
-					</div>
-					<div class="col-md-5">
-						<h2> <a href="blog_posts/bp22.html"> Creed Thoughts </a> </h2>
-						<p> We got a teaser of it in the show, but Creed Bratton's blog really does exist! Filled with content as chaotic as he is, the site is a hidden gem of weird and hilarious posts that add to the brilliance of his character.
-						</p>
-					</div>
-				</div>	
-				
-				<!>
-				<div class="row blogpost">
-					<div class="col-md-7">
-						<img alt="Superstore, Community, and Schitt's Creek posters" src="blog_posts/images/bp21/title.png">
-					</div>
-					<div class="col-md-5">
-						<h2><a aria-label="Link to the Three Other Comedies You Should Definitely Watch article" href="blog_posts/bp21.html"> Three Other Comedies You Should Definitely Watch </a></h2>
-						<p> While rewatching <i>The Office</i>, <i>Parks and Recreation</i>, and <i>Brookyln Nine-NIne</i> is definitely satisfying, here's three other shows you should definitely check out to fill the void in your heart. </p>
-					</div>
-				</div>			
-				
-				<!>
-				<div class="row blogpost">
-					<div class="col-md-7">
-						<img alt="Brett, Taylor, Dozerman, and Debbie" src="blog_posts/images/bp20.png">
-					</div>
-					<div class="col-md-5">
-						<h2> <a aria-label="Link to the SNL Stars on B99 (Part Two) article" href="blog_posts/bp20.html"> SNL Stars on B99 (Part Two)</a> </h2>
-						<p> Saturday Night Live alumni are obviously talented and fantastic comedians and actors, and beyond simply gracing our screen on the long-running comedy program, some have also made guest appearances on <i>Brooklyn Nine-Nine</i>.
-						</p>
-					</div>
-				</div>			
-			</div>
-		</div>		
-	</div>
-	
-	<hr>
-	
-	<! who said it>
-	<div class="row whosaiditdiv">
-		
-		<!-- week of 5/31/21>
-		<div class="col-md-12">
-			<h1 style="padding: 5px; text-align: center; font-size: 2rem"> who said it? </h1>
-			<! question>
-			<div class="questiondiv">
-				<h2>  </h2>
-			</div>
-			<! answer>
-			<div class="quizanswers">
-				<form style="display:inline">			
-					<div class="answercol answercol1">
-						<div class="quizq"> <span class="leftq"><input id="q5" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q5">  </label> </span> </div>
-						<div class="quizq"> <input id="q6" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q6">  </label> </div>						
-					</div>
-					<div class="answercol answercol2">
-						<div class="quizq"> <span class="leftq"><input id="q7" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q7">  </label> </span> </div> 
-						<div class="quizq"> <input id="q8" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q8">  </label> </div>	
-					</div>
-				</form>					
-			</div>			
-		</div>	-->
-		
-		<!-- week of 6/14/21>
-		<div class="col-md-12">
-			<h1 style="padding: 5px; text-align: center; font-size: 2rem"> who said it? </h1>
-			<! question>
-			<div class="questiondiv">
-				<h2> "A few months ago, the thought of an infectious disease, even hypothetical, would have sent me careening towards Bummerville, but now I am infected with a killer virus, and I feel fine. Therapy!" </h2>
-			</div>
-			<! answer>
-			<div class="quizanswers">
-				<form style="display:inline">			
-					<div class="answercol answercol1">
-						<div class="quizq"> <span class="leftq"><input id="q5" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q5"> Pam Beasly </label> </span> </div>
-						<div class="quizq"> <input id="q6" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q6"> Terry Jeffords </label> </div>						
-					</div>
-					<div class="answercol answercol2">
-						<div class="quizq"> <span class="leftq"><input id="q7" class="cor" value="Correct" type="radio" name="trivq">
-						<label for="q7"> Chris Traegar </label> </span> </div> 
-						<div class="quizq"> <input id="q8" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q8"> Amy Santiago </label> </div>	
-					</div>
-				</form>			
-			</div>			
-		</div>	-->
-		
-		<!-- week of 6/07/21>
-		<div class="col-md-12">
-			<h1 style="padding: 5px; text-align: center; font-size: 2rem"> who said it? </h1>
-			<! question>
-			<div class="questiondiv">
-				<h2> "It's actually not the first time I've been embarrassed by a pond. In high school, the girls volleyball team always used to throw me into the frozen lake. Four years in a row! Oh, it was freezing! No, no, no! Oh! This is even worse. Couple weeks ago I went to get a new cellphone and I wanted one of those packages, where you have the five, you know, friends, friends and family thing. And the guy was like, 'who are your five friends' and I'm like, 'uhhh.' I didn't even know! I couldn't even think!" </h2>
-			</div>
-			<! answer>
-			<div class="quizanswers">
-				<form style="display:inline">			
-					<div class="answercol answercol1">
-						<div class="quizq"> <span class="leftq"><input id="q5" class="cor" value="Correct" type="radio" name="trivq">
-						<label for="q5"> Michael Scott </label> </span> </div>
-						<div class="quizq"> <input id="q6" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q6"> Charles Boyle </label> </div>						
-					</div>
-					<div class="answercol answercol2">
-						<div class="quizq"> <span class="leftq"><input id="q7" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q7"> Andy Dwyer </label> </span> </div> 
-						<div class="quizq"> <input id="q8" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q8"> Tom Haverford </label> </div>	
-					</div>
-				</form>				
-			</div>			
-		</div>	-->
-		
-		<! week of 5/31/21>
-		<div class="col-md-12">
-			<h1 style="padding: 5px; text-align: center"> who said it?</h1>
-			<! question>
-			<div class="questiondiv">
-				<h2> "My Nana always said, 'Bad news first because the good news is probably a lie.' Fun fact: she made me cry a lot." </h2>
-			</div>
-			<! answer>
-			<div class="quizanswers">
-				<form style="display:inline">			
-					<div class="answercol answercol1">
-						<div class="quizq"> <span class="leftq"><input id="q5" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q5"> Andy Bernard </label> </span> </div>
-						<div class="quizq"> <input id="q6" class="cor" value="Correct" type="radio" name="trivq">
-						<label for="q6"> Charles Boyle </label> </div>						
-					</div>
-					<div class="answercol answercol2">
-						<div class="quizq"> <span class="leftq"><input id="q7" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q7"> Ben Wyatt </label> </span> </div> 
-						<div class="quizq"> <input id="q8" class="inc" value="Incorrect" type="radio" name="trivq">
-						<label for="q8"> Andy Dywer</label> </div>	
-					</div>
-				</form>			
-			</div>	
-		</div>
-	</div>
-	
-	<hr>
-	
-	<!about this blog!>
-	<div class="row aboutthisblogdiv">
-		<div class="col-md-2 abouttitle">
-			<h1>about this blog</h1>
-		</div>
-		<div class="col-md-10 abouttext">
-			<p><i>The Office</i>, <i>Parks and Recreation</i>, and <i>Brookyln Nine-Nine</i> are unquestionably some of the best comedies and sitcoms to grace our screens, and this blog is dedicated to honoring them with content that explores their, well, awesomeness. The world is a pretty bleak place right now, and we all need an outlet to relax and just forget about our worries. And why dedicate your time and energy to indulging in a new obsession when you can rewatch and binge these brilliant shows over and over again?</p>
-			<p>This blog, of course, is a fan-run site. We may use copyrighted material that has not been specifically authorized by the copyright owner. However, we are making such material available for comment and entertainment purposes. Thus, we believe this constitutes a "fair use" of any such copyrighted material as provided for in section 107 of the United States Copyright law. Once more, I do not own this content. All credits go to its rightful owner, and no copyright infringement is intended. </p>
-		</div>
-	</div>
-	
-	<hr>
-	</main>
-</div>
+#name-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-family: arial;
+	font-size: 70px;
+	font-weight: bold;
+}
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+#smallmm{
+	font-size: 8px;
+	writing-mode: vertical-rl;
+	text-orientation: sideways-right;
+}
+
+@media screen and (max-width: 955px) {
+  #name-text{
+	font-size: 65px;
+  }
+  #smallmm{
+	  font-size: 6px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  #name-text{
+	font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #name-text{
+	font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #name-text{
+	font-size: 55px;
+	line-height: 1;
+  }
+}
+
+#navbar{
+	width: 100%;
+	background-color: black;
+	overflow: hidden;
+	display: table;
+	z-index: 1;
+	left: 0;
+	margin: 0;
+	margin-bottom: 10px;
+	height: 20px;
+}
+
+
+#navbar a{
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	text-align: center; /* If you want the text to be centered */
+	width: auto;
+	display: table-cell;
+	border: 0.15px solid #001827;
+}
+
+@media screen and (min-width: 1500px) {
+	#navbar{
+		height: 40px;
+	}
+	#navbar a {
+		font-size: 20px;
+	}
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+a{
+	color: #63B5FD
+}
+
+.maincont{
+	z-index: 2;
+	margin: 10px;
+}
+
+.answercol{
+	width: 50%;
+	display: block;
+}
+.answercol1{
+	float: left;
+}
+
+.answercol2{
+	float: right;
+}
+
+.questiondiv{
+	float: left;
+}
+
+.quizanswers{
+	float: right;
+	padding-left: 1%;
+}
+
+.questiondiv h2{
+	font-size: 1.5rem;
+}
+
+@media screen and (min-width: 901px) {
+	.triviadiv .questiondiv{
+		width: 60%;
+	}
+
+	.triviadiv .quizanswers{
+		width: 35%;
+	}
+
+	.whosaiditdiv .questiondiv{
+		width: 73%;
+	}
+
+	.whosaiditdiv .quizanswers{
+		width: 25%;
+	}
+
+
+	.quizq{
+		width: 99%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.questiondiv{
+		width: 99%;
+		margin-bottom: 5px;
+		text-align: center;
+	}
+	.quizanswers{
+		width: 99%;
+	}
+	.quizq{
+		width: 100%;
+		display: inline;
+		float: right;
+	}
+	.leftq{
+		float: left;
+	}
+	.answercol{
+		width: 99%
+	}
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 601px){
+	.questiondiv{
+		width: 99%;
+		margin-bottom: 5px;
+		text-align: center;
+	}
+	.quizanswers{
+		width: 99%;
+	}
+	.quizq{
+		width: 49%;
+		display: inline;
+		float: right;
+	}
+	.leftq{
+		float: left;
+	}
+}
+
+.triviadiv, .recentblogpostsdiv, .whosaiditdiv, .aboutthisblogdiv {
+	padding: 10px;
+	margin: 10px;
+}
 	
-  </body>
-</html>
+hr {
+	border: 0.5px solid white;
+	width: 97%
+}
+
+.blogpost{
+	padding: 1% 5%;
+}
+
+.blogpost img{
+	width:100%;
+}
+
+#blogpostheader{
+	text-align: center;
+	padding: 5px;
+}
+
+.featuredclipsdiv{
+	padding: 10px 0;
+}
+
+.featclipscar{
+	width: 75%;
+	margin: auto;
+}
+
+.inc:checked ~ label {
+	color: red;
+}
+
+.cor:checked ~ label{
+	color: green;
+}
+
+.abouttext{
+	padding: 1%;
+	border-left: 0.75px solid white;
+}
+
+.abouttitle{
+	padding: 1%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+@media screen and (max-width: 767px){
+	.abouttext{
+		padding: 1%;
+		border-left: none;
+	}
+	.abouttitle{
+		text-align:center;
+	}
+}
+
+
+/* tabs and stuff (for media and showinfo) */	
+
+#tabbar{
+	z-index: 1;
+	overflow: hidden;
+	position: sticky;
+	top: 30px;
+	background-color: #001827;
+}
+
+.tabbuttonrow {
+	width: 100%;
+	margin: auto;
+	height: 35 px;
+	border-bottom: 1.5px solid black;
+	z-index: 2;
+}
+
+/* Style tab links */
+.tablink {
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+  height: 25px;
+  bottom: 0;
+  margin-bottom: 1px;
+  margin-top: 10px;
+  margin-right: 3px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 20px 20px;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+}
+
+.tabcontent h1{
+	font-size: 3vw;
+	text-align: center;
+	padding: 10px;
+}
+
+.OfficeButtonTab{
+	background-color: steelblue;
+}
+
+.ParksButtonTab{
+	background-color: #7B9E70;
+}
+
+.B99ButtonTab{
+	background-color: #C9BF89;
+}
+
+.OtherButtonTab{
+	background-color: indianred;
+}
+
+.defaultopen{
+	visibility: visible;
+}
+
+
+#OfficeTab {background-color: rgba(38, 195, 242, 0.4);}
+	#OfficeTab h1 {
+		font-family: monospace;
+	}
+#ParksTab {background-color: rgba(89, 179, 62, 0.5);}
+	#ParksTab h1{
+		font-family: impact;
+	}
+#B99Tab {background-color: rgba(254, 223, 73, 0.5);}
+	#B99Tab h1{
+		font-family: verdana;
+	}
+#OtherTab {background-color: rgba(204, 0, 76, 0.5);}
+	#OtherTab h1{
+		font-family: verdana;
+	}
+
+
+
+/* show info... array content code */
+
+.bioimages {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	padding-bottom: 15px;
+	float: none;
+	margin-bottom: 0;
+	
+}
+
+.bioimagesdiv{
+	width: 30%;
+	margin-left: auto;
+	float: right;
+	margin-bottom: auto;
+	margin-top: auto;
+	top: 50%;
+	bottom: 50%;
+}
+
+#OfficeTab .bioimagesdiv{
+	width: 40%;
+}
+
+/* bio images */
+
+#dunmiflogo{
+	width: 400px;
+}
+
+
+#parkseal{
+	width: 250px;
+}
+
+#b99badge{
+	width: 250px;
+}
+
+@media screen and (max-width: 1080px) {
+	#dunmiflogo{
+		width: 350px;
+	}
+}
+
+@media screen and (max-width: 970px) {
+	#dunmiflogo{
+		width: 325px;
+	}
+}	
+
+.synpodiv{
+	width: 65%;
+	float: left;
+}
+
+#OfficeTab .synpodiv{
+	width: 55%;
+}
+
+.watchiton{
+	border: 1px solid black;
+	border-left: none;
+	padding: 10px;
+	width: 48%;
+	float: left;
+	margin-bottom: 15px;
+	box-shadow: 7px 7px 30px black;
+}
+
+
+.watchiton:hover{
+	box-shadow: 10px 10px 35px black;
+}
+
+.wordsyn{
+	font-size: 1.75rem;
+}
+
+.programname{
+	font-size: 125%
+}
+
+.blockrow{
+	width: 100%;
+}
+
+.infotablediv{
+	float: right;
+	width: 50%;
+}
+	
+table, tr{
+  border: 1px solid black;
+}
+
+table{
+	width: 100%;
+}
+
+th{
+	padding-left: 10px;
+}
+.tworow td, th{
+	width: 25%;
+	border-left: 1px solid black;
+}
+
+.longrow td{
+	padding: 3px;
+	width: 100%;
+}
+
+.longrow th {
+	width: 25%;
+	padding: 3px;
+}
+
+.synsource{
+	font-size:0.75rem;
+	float: right;
+	padding: 5px;
+}
+
+.synsource a {
+	color: lightblue;
+}
+
+@media screen and (max-width: 900px) {
+  .infotablediv, .synpodiv, .watchiton, #OfficeTab .synpodiv {
+    width: 100%;
+  }
+  .bioimagesdiv{
+	  width: 50%;
+	  float: none;
+	  margin: auto;
+	  display: block;
+  }
+  
+  #dunmiflogo {
+	  width: 90%;
+  }
+}
+	
+.sinfocartext{
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	margin-left: 0;
+	margin-right: auto;
+	left: 0;
+	padding: 1%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+
+
+/* show info photo carousel */
+.carousel-caption{
+	width: 100%;
+	margin-left: 0;
+	margin-right: auto;
+	left: 0;
+}	
+
+.carousel{
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+@media screen and (max-width: 700px) {
+  .carousel{
+	width: 100%;
+  }
+}
+
+
+
+/* where to watch images */
+.w2wimg{	
+	width: 50px;
+	width: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	top: 50%;
+}
+
+/* past content stuff */
+.pastcont{
+	margin: 1%;
+	margin-bottom: 50px;
+}
+
+
+.pastcont h2, .pastcont h3,.pastcont h4, .pastcont h5{
+	margin: 0;
+	text-align: center;
+}
+
+.pastcont h1{
+	text-align: center;
+	padding-bottom: 15px;
+	text-shadow: 1px 1px 2px black, 0 0 25px lightblue, 0 0 10px blue;
+}
+
+.pastcont h2{
+	font-size: 1.5rem;
+}
+
+.pastcontquiz{
+	margin: 10px;
+	padding: 10px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.pastclips{
+	padding-bottom: 10px;
+	padding-top: 15px;
+	
+}
+
+.pastclips .col-md-4{
+	padding: 10px;
+}
+
+.collapsible {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  background-color: #6460aa;
+  box-shadow: 0 8px 9px 1px #1F1C35;
+  color: white;
+  border: 1px solid black;
+}
+
+.hiddencontent .content{
+  display: none;
+}
+
+.hiddencontent button{
+  background-color: #434068;
+}
+
+.content {
+  padding: 20px 18px;
+  overflow: hidden;
+  width: 98%;
+  left: 50%;
+  right: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #003252;
+}	
+
+.content p{
+	padding: 10px;
+	font-size: 1.15rem;
+}
+
+.quoteorg{
+	font-size: 0.95rem;
+	text-align: right;
+	float: right;
+}
+
+
+
+
+/* social media stuff */
+.mediaarray{
+	padding: 10px;
+	margin: 10px;
+	width: 560px;
+	box-shadow: 5px 10px 8px 0 rgba(0,0,0,0.5);
+}
+
+.mediaarray:hover{	
+	box-shadow: 5px 12px 12px 0 rgba(0,0,0,0.6);
+}
+
+
+.twitterdiv, .youtubediv{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.instadiv, .facebookdiv{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.twitterdiv, .instadiv {
+	
+}
+
+.youtubediv, .facebookdiv{
+
+}
+
+.instadiv{ 
+	margin-top: auto;
+	margin-bottom: auto;
+	display: block;
+	top: 50%;
+}
+
+.twitterdiv{
+	height: 375px;
+}
+
+.twitterdiv a{
+	
+}
+
+	
+.youtubediv{
+	
+}	
+
+.mediaarray h2{
+	text-align: center;
+	padding-bottom: 2px;
+	font-size: 1.75rem
+}	
+
+.youtubediv iframe{
+	width: 100%;
+	height: 315px;
+}
+	
+	
+	
+@media screen and (max-width: 1200px) and (min-width: 1020px) {
+  .mediaarray {
+    width: 476px;
+  }
+  .youtubediv iframe{
+	height: 268px
+  }
+}
+
+@media screen and (max-width: 1020px) and (min-width: 900px){
+  .mediaarray {
+    width: 420px;
+  }
+  .youtubediv iframe{
+	height: 236px;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 768px){
+  .mediaarray {
+    width: 336px;
+  }
+  .youtubediv iframe{
+	height: 189px
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .mediaarray {
+    width: 476px;
+  }
+  .youtubediv iframe{
+	height: 268px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .mediaarray {
+    width: 90%;
+	margin: 5%;
+  }
+}
+
+
+
+
